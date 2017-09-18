@@ -12,7 +12,7 @@ public class Application {
         int[] results = new int[6];
           for (int i = 1; i < 6; i++) {
             results[i] = ((int)(Math.random() * (6-1) + 1));
-            System.out.println(results[i]);
+            //System.out.println(results[i]);
         }
         //Вывести в консоль среднюю оценку на основе значений из results
         System.out.println("Average:");
